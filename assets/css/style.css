@@ -1,0 +1,235 @@
+#boathouseMap {
+   height: 400px;
+   max-width: 600px;
+}
+
+figure {
+  grid-column: full;
+}
+
+ul{
+  list-style-type: square;
+  font-size: 20px;
+}
+
+.moveLeft{
+  font-size:60px;
+}
+
+body {
+  padding: 2em 0;
+}
+
+article > * {
+
+  padding: 2em;
+}
+
+figure {
+  text-align: center;
+}
+
+#meetFam {
+  max-width: 100%;
+}
+
+.centerPic {
+  background-image: url("http://via.placeholder.com/1500x450?text=Image");
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 80px;
+  background-repeat: no-repeat;
+
+  margin-bottom: 0;
+
+}
+
+
+#introPar{
+  font-size: 30px;
+  padding-right: 800px;
+}
+
+
+
+.itemIcon{
+  font-size:40px;
+}
+
+footer{
+  background:rgba(255, 255, 255, 0.6);
+}
+
+
+.page img{
+  display: block;
+  width: 200px;
+
+}
+
+.coachPic{
+  width: 1000px;
+
+}
+
+
+
+
+body{
+  background-image: url("file:///Users/abbyschwenger/Desktop/CODE/CIM111/MountCrew/assets/images/bg3.JPG");
+  font-family: 'Graduate', cursive;
+  margin: 0 auto;
+  max-width: 80em;
+  padding: 1em 0;
+}
+
+.longerBackground{
+background-image: url("file:///Users/abbyschwenger/Desktop/CODE/CIM111/MountCrew/assets/images/bg2.JPG");
+
+
+}
+.containerCoach {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+
+}
+
+.text, .coachItem {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+margin:10px;
+  flex: 1 1 200px;
+}
+
+
+.text{
+  background:rgba(255, 255, 255, 0.6);
+  margin-left:5px;
+}
+
+.navBar{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  background-color:rgba(200, 148, 228, 0.3);
+  padding-top: 20px;
+}
+.item{
+  height: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+
+}
+
+.item:hover{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+header{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+
+.gallery{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.gallery img{
+  display: block;
+  width: 100%;
+
+}
+
+p{
+  font-size: 30px;
+}
+.gallery h1, .page h1{
+	grid-column: 1/ -1;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-gap: 20px;
+	align-items: center;
+  font-family: 'Graduate', cursive;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.gallery h1:before, .gallery h1:after, .page h1:before, .page h1:after{
+	display: block;
+	content: '';
+	height: 10px;
+	background: #5475bf;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 300px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.itemIcon:hover{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+
+  #introPar{
+    background-color: white;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  aside,
+  article {
+    grid-column: 4 / 4;
+  }
+}
+
+
+@media all and (max-width: 700px) {
+  aside,
+  article {
+    grid-column: 2 / 4;
+  }
+}
+
+@media all and (max-width: 300px) {
+  aside,
+  article, {
+    grid-column: 1 / 4;
+  }
+
+
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
+}
