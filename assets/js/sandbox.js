@@ -1,6 +1,14 @@
 
 //EVENT LISTENERS
 
+$("#directionsLink").mouseover(function(){
+    $("#directionsLink").css("color", "white");
+});
+
+$("#directionsLink").mouseleave(function(){
+    $("#directionsLink").css("color", "black");
+});
+
 $("h1").mouseover(function(){
     $("h1").css("color", "white");
 });
@@ -61,3 +69,15 @@ $(document).ready(function() {
       });
 
 //END FUNCTIONS
+
+
+//ARRAY
+
+var words = ["crew", "rowing is neat", "boats"]
+
+var name = words[1];
+
+document.write(name);
+
+
+//END ARRAY
