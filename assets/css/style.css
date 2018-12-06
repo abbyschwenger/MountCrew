@@ -3,6 +3,14 @@
    max-width: 600px;
 }
 
+
+
+#directionsLink {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+
 figure {
   grid-column: full;
 }
@@ -74,10 +82,13 @@ footer{
 }
 
 
-
+h2{
+  font-size: 40px;
+}
 
 body{
-  background-image: url("file:///Users/abbyschwenger/Desktop/CODE/CIM111/MountCrew/assets/images/bg3.JPG");
+  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg3.JPG");
+
   font-family: 'Graduate', cursive;
   margin: 0 auto;
   max-width: 80em;
@@ -85,7 +96,7 @@ body{
 }
 
 .longerBackground{
-background-image: url("file:///Users/abbyschwenger/Desktop/CODE/CIM111/MountCrew/assets/images/bg2.JPG");
+background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.JPG");
 
 
 }
@@ -206,7 +217,7 @@ a{
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   aside,
   article {
     grid-column: 4 / 4;
@@ -214,19 +225,19 @@ a{
 }
 
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 640px) {
   aside,
   article {
     grid-column: 2 / 4;
   }
+
 }
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
 
-@media all and (max-width: 300px) {
-  aside,
-  article, {
-    grid-column: 1 / 4;
-  }
-
+}
 
 @supports (display: grid) {
   .module {
