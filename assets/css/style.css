@@ -9,7 +9,7 @@
 }
 
 .longerBackground{
-background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.JPG");
+background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
 
 
 
@@ -145,7 +145,7 @@ h2{
 }
 
 body{
-  background-image:url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg3.JPG");
+  background-image:url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg3.jpg");
 
 
   font-family: 'Graduate', cursive;
@@ -155,7 +155,7 @@ body{
 }
 
 .longerBackground{
-background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.JPG");
+background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
 
 
 
@@ -269,7 +269,7 @@ a{
   .containerCoach{
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
-body{  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.JPG");
+body{  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
 }
 .gallery{
   margin:20px;
@@ -284,7 +284,7 @@ body{  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/asse
   and (-webkit-min-device-pixel-ratio: 3) {
     body{
       margin:20px;
-       background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.JPG");
+       background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
     }
 }
 
