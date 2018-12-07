@@ -9,8 +9,7 @@
 }
 
 .longerBackground{
-background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
-
+background-image: linear-gradient(white, purple);
 
 
 }
@@ -96,22 +95,6 @@ figure {
 
 
 
-.loisPic {
-  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/george.jpg");
-  margin-left: auto;
-  margin-right: auto;
-  height: 600px;
-  width: auto;
-  float:center;
-  align-items: center;
-
-  background-repeat: no-repeat;
-
-  margin-bottom: 0;
-
-}
-
-
 #introPar{
   font-size: 30px;
   padding-right: 800px;
@@ -145,7 +128,7 @@ h2{
 }
 
 body{
-  background-image:url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg3.jpg");
+background-image: linear-gradient(white, purple);
 
 
   font-family: 'Graduate', cursive;
@@ -155,7 +138,7 @@ body{
 }
 
 .longerBackground{
-background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
+background-image: linear-gradient(white, purple);
 
 
 
@@ -269,8 +252,6 @@ a{
   .containerCoach{
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
-body{  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
-}
 .gallery{
   margin:20px;
 }
@@ -284,7 +265,7 @@ body{  background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/asse
   and (-webkit-min-device-pixel-ratio: 3) {
     body{
       margin:20px;
-       background-image: url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg2.jpg");
+
     }
 }
 
