@@ -112,9 +112,10 @@ h2{
 }
 
 body{
-  background-image: url("file:///Users/abbyschwenger/Downloads/Facetune_21-11-2018-08-09-42.JPG");
+  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg2.jpg");
 
-
+  background-size: cover;
+    background-position: center;
 
   font-family: 'Graduate', cursive;
   margin: 0 auto;
