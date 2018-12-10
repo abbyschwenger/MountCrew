@@ -15,8 +15,10 @@ height:100px;
 }
 
 .longerBackground{
-background-color: rgba(195, 153, 232, 0.69);
+  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg.jpg");
 
+  background-size: cover;
+    background-position: center;
 
 }
 .text{
