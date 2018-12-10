@@ -107,11 +107,11 @@ h2{
 }
 
 body{
-  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg2.jpg");
+  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg.JPG");
 
   background-size: cover;
     background-position: center;
-
+color:white;
   font-family: 'Graduate', cursive;
   margin: 0 auto;
   max-width: 80em;
@@ -120,10 +120,11 @@ body{
 
 .longerBackground{
 
-  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg4.jpg");
+  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg.JPG");
 
   background-size: cover;
     background-position: center;
+    color: white;
 
 
 
