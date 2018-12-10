@@ -126,8 +126,11 @@ body{
 }
 
 .longerBackground{
-    background-color: rgba(183, 111, 246, 0.27);
 
+  background-image:url("https://raw.githubusercontent.com/abbyschwenger/mountCrew/master/assets/images/bg.jpg");
+
+  background-size: cover;
+    background-position: center;
 
 
 
