@@ -89,7 +89,7 @@ h2{
 }
 
 body{
-  background-image:url("file:///Users/abbyschwenger/Desktop/mountCrew/assets/images/bg5.JPG");
+  background-image:url("https://github.com/abbyschwenger/mountCrew/blob/master/assets/images/bg5.JPG");
   background-size: cover;
   background-position: center;
   color:black;
@@ -135,6 +135,16 @@ font-family: 'Staatliches', cursive;
 }
 
 
+.container{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.thing {
+  display: block;
+  width: 100%;
+  font-size: 80px;
+}
 
 .text .coachItem {
   display: block;
