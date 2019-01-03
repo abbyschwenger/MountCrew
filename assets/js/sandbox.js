@@ -9,22 +9,6 @@ $("#directionsLink").mouseleave(function(){
     $("#directionsLink").css("color", "black");
 });
 
-$("h1").mouseover(function(){
-    $("h1").css("color", "white");
-});
-
-$("h1").mouseleave(function(){
-    $("h1").css("color", "black");
-});
-
-$("header").mouseover(function(){
-    $("header").css("color", "white");
-});
-
-$("header").mouseleave(function(){
-    $("header").css("color", "black");
-});
-
 //END EVENT LISTENERS
 
 
@@ -39,45 +23,13 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoiYXNjaHdlbmdlciIsImEiOiJjam95d2plOGswMmt3M3Btc296aTlhYWh0In0.WHfcq4PhbmmLU5XNeSyNJQ'
 }).addTo(mymap);
 
+
+var marker = L.marker([51.5, -0.09]).addTo(mymap);
+
+var circle = L.circle([40.0723972, -75.29207980000001], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 50
+}).addTo(mymap);
 //END MAP JS
-
-
-// JQUERY FUNCTIONS
-
-$(document).ready(function() {
-
-      $("footer").hide();
-
-      var hideStatus = true;
-
-      $("h1").on("click", function() {
-
-
-        if(hideStatus == true){
-
-            $("footer").show();
-
-            hideStatus = false;
-        }
-        else{
-
-            $("footer").hide();
-            hideStatus = true;
-        }
-      });
-
-      });
-
-//END FUNCTIONS
-
-
-//ARRAY
-
-var words = ["crew", "rowing is neat", "boats"]
-
-var name = words[1];
-
-document.write(name);
-
-
-//END ARRAY
